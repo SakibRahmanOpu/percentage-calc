@@ -101,7 +101,7 @@ export default function PercentageCalculator() {
               <CardHeader>
                 <CardTitle className="flex items-center space-x-2">
                   <TrendingUp className="h-5 w-5 text-blue-600" />
-                  <span>Percentage Calculator</span>
+                  <span>Percentage Increase Calculator</span>
                 </CardTitle>
                 <CardDescription>
                   Enter the starting value and final value to calculate the

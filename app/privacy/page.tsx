@@ -76,11 +76,12 @@ export default function PrivacyPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-700 leading-relaxed">
-                At PercentCalc, we are committed to protecting your privacy.
-                This Privacy Policy explains how we collect, use, and safeguard
-                your information when you use our percentage calculator and
-                related services. We believe in transparency and want you to
-                understand exactly how your data is handled.
+                At Percentage Increase Calculator, we are committed to
+                protecting your privacy. This Privacy Policy explains how we
+                collect, use, and safeguard your information when you use our
+                percentage calculator and related services. We believe in
+                transparency and want you to understand exactly how your data is
+                handled.
               </p>
             </CardContent>
           </Card>
@@ -235,7 +236,7 @@ export default function PrivacyPage() {
               </ul>
               <p className="text-gray-700 mt-4">
                 To exercise any of these rights, please contact us at
-                privacy@percentcalc.com.
+                privacy@percentageincreasecalculator.org.
               </p>
             </CardContent>
           </Card>
