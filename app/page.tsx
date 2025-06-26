@@ -92,11 +92,7 @@ export default function PercentageCalculator() {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Percentage Increase Calculator
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Calculate the percentage increase or decrease between two values
-            instantly. Perfect for analyzing growth rates, price changes, and
-            statistical comparisons.
-          </p>
+          
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
