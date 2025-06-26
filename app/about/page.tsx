@@ -79,7 +79,7 @@ export default function AboutPage() {
             About PercentCalc
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We're dedicated to making mathematical calculations simple,
+            We&apos;re dedicated to making mathematical calculations simple,
             accessible, and educational for everyone. Our tools help students,
             professionals, and curious minds solve percentage problems with
             confidence.
@@ -100,9 +100,9 @@ export default function AboutPage() {
                 approachable and understandable for everyone. Our mission is to
                 provide free, accurate, and educational calculation tools that
                 not only give you the right answer but also help you understand
-                how to get there. We're committed to creating a platform that
-                serves students, educators, professionals, and anyone who needs
-                reliable mathematical tools.
+                how to get there. We&apos;re committed to creating a platform
+                that serves students, educators, professionals, and anyone who
+                needs reliable mathematical tools.
               </p>
             </CardContent>
           </Card>
@@ -148,7 +148,7 @@ export default function AboutPage() {
                     Privacy First
                   </h3>
                   <p className="text-gray-600">
-                    We don't store your calculations or personal data. Your
+                    We don&apos;t store your calculations or personal data. Your
                     privacy is our priority.
                   </p>
                 </div>
@@ -183,7 +183,7 @@ export default function AboutPage() {
                 Have Questions or Suggestions?
               </h2>
               <p className="text-gray-600 mb-6">
-                We'd love to hear from you! Whether you have feedback, need
+                We&apos;d love to hear from you! Whether you have feedback, need
                 help, or want to suggest new features.
               </p>
               <a
@@ -204,7 +204,9 @@ export default function AboutPage() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Calculator className="h-6 w-6" />
-                <span className="text-xl font-bold">PercentCalc</span>
+                <span className="text-xl font-bold">
+                  Percentage Increase Calculator
+                </span>
               </div>
               <p className="text-gray-400">
                 Your go-to calculator for percentage calculations and
@@ -216,28 +218,28 @@ export default function AboutPage() {
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2">
                 <li>
-                  <a
+                  <Link
                     href="/"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Calculator
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/about"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/contact"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -246,20 +248,20 @@ export default function AboutPage() {
               <h3 className="text-lg font-semibold mb-4">Legal</h3>
               <ul className="space-y-2">
                 <li>
-                  <a
+                  <Link
                     href="/privacy"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/terms"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Terms of Service
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -297,8 +299,8 @@ export default function AboutPage() {
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>
-              &copy; 2025 PercentCalc. All rights reserved. Built with Next.js
-              and Tailwind CSS.
+              &copy; {new Date().getFullYear()} Percentage Increase Calculator.
+              All rights reserved.
             </p>
           </div>
         </div>
