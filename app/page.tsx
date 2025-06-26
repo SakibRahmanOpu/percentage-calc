@@ -92,7 +92,6 @@ export default function PercentageCalculator() {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Percentage Increase Calculator
           </h1>
-          
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
@@ -353,13 +352,15 @@ export default function PercentageCalculator() {
       </main>
 
       {/* Footer */}
- <footer className="bg-gray-900 text-white mt-16">
+      <footer className="bg-gray-900 text-white mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Calculator className="h-6 w-6" />
-                <span className="text-xl font-bold">PercentCalc</span>
+                <span className="text-xl font-bold">
+                  Percentage Increase Calculator
+                </span>
               </div>
               <p className="text-gray-400">
                 Your go-to calculator for percentage calculations and
@@ -452,8 +453,8 @@ export default function PercentageCalculator() {
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>
-              &copy; 2025 PercentCalc. All rights reserved. Percentage Increase
-              Calculator.
+              &copy; {new Date().getFullYear()} Percentage Increase Calculator.
+              All rights reserved.
             </p>
           </div>
         </div>

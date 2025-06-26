@@ -303,8 +303,8 @@ export default function ContactPage() {
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>
-              &copy; 2025 PercentCalc. All rights reserved. Percentage Increase
-              Calculator.
+              &copy; {new Date().getFullYear()} Percentage Increase Calculator.
+              All rights reserved.
             </p>
           </div>
         </div>

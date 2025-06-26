@@ -318,7 +318,9 @@ export default function PrivacyPage() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Calculator className="h-6 w-6" />
-                <span className="text-xl font-bold">PercentCalc</span>
+                <span className="text-xl font-bold">
+                  Percentage Increase Calculator
+                </span>
               </div>
               <p className="text-gray-400">
                 Your go-to calculator for percentage calculations and
@@ -411,8 +413,8 @@ export default function PrivacyPage() {
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>
-              &copy; 2025 PercentCalc. All rights reserved. Percentage Increase
-              Calculator.
+              &copy; {new Date().getFullYear()} Percentage Increase Calculator.
+              All rights reserved.
             </p>
           </div>
         </div>
