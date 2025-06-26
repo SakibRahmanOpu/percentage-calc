@@ -86,6 +86,8 @@ export default function RootLayout({
             </Script>
           </>
         )}
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.png" type="image/x-icon" />
         {/* Structured Data */}
         <Script id="structured-data" type="application/ld+json">
           {`
