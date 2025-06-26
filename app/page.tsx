@@ -353,15 +353,13 @@ export default function PercentageCalculator() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white mt-16">
+ <footer className="bg-gray-900 text-white mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Calculator className="h-6 w-6" />
-                <span className="text-xl font-bold">
-                  Percentage Increase Calculator
-                </span>
+                <span className="text-xl font-bold">PercentCalc</span>
               </div>
               <p className="text-gray-400">
                 Your go-to calculator for percentage calculations and
@@ -373,28 +371,28 @@ export default function PercentageCalculator() {
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2">
                 <li>
-                  <a
+                  <Link
                     href="/"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Calculator
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/about"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/contact"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -403,20 +401,20 @@ export default function PercentageCalculator() {
               <h3 className="text-lg font-semibold mb-4">Legal</h3>
               <ul className="space-y-2">
                 <li>
-                  <a
+                  <Link
                     href="/privacy"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/terms"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Terms of Service
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
